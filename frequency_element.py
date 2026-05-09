@@ -8,9 +8,9 @@ for i in range(0,len(nums)):
 print(freq_map)'''
 
 
-'''nums = [5,8,3,1,5,2,6,6,8]          #frequency of elements in a list using collections module
+nums = [5,8,3,1,5,2,6,6,8]          #frequency of elements in a list using collections module
 n = len(nums)
 hash_map = {}
 for i in range(0,n):
     hash_map[nums[i]] = hash_map.get(nums[i], 0) + 1
-print(hash_map)'''
+print(hash_map)
