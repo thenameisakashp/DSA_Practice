@@ -34,3 +34,11 @@ func(4)'''
     print(N)
 
 func(4)'''
+
+'''def func(sum,i,N): #sum of numbers from 1 to N
+    if i > N:
+        print(sum)
+        return
+    func(sum+i,i+1,N)
+
+func(0,1,5)'''
