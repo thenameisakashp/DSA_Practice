@@ -13,11 +13,11 @@ num = [2, 3, 5, 7, 11]
 print(reverse(num))'''
 
 
-num = [2, 3, 5, 7, 11] #reverse a list using recursion and swapping
+'''num = [2, 3, 5, 7, 11] #reverse a list using recursion and swapping
 def reverse(num,left,right):
     if left >= right:
         return num
     num[left], num[right] = num[right], num[left]
     return reverse(num, left + 1, right - 1)
 
-print(reverse(num, 0, len(num)-1))
+print(reverse(num, 0, len(num)-1))'''
